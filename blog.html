@@ -26,7 +26,7 @@
           <b>
             <a
               class="navbar-brand"
-              href="/index.html"
+              onclick="index()"
               style="font-family: Arial, Helvetica, sans-serif"
               >Alex Turnwall</a
             ></b
@@ -48,7 +48,7 @@
                 <a
                   class="nav-link"
                   aria-current="page"
-                  href="/work.html"
+                  onclick="work()"
                   style="
                     color: #242929;
                     font-family: Arial, Helvetica, sans-serif;
@@ -59,7 +59,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/blog.html"
+                  onclick="blog()"
                   style="
                     color: #242929;
                     font-family: Arial, Helvetica, sans-serif;
@@ -70,7 +70,7 @@
               <li class="nav-item">
                 <a
                   class="nav-link"
-                  href="/about.html"
+                  onclick="about()"
                   style="
                     color: #242929;
                     font-family: Arial, Helvetica, sans-serif;
@@ -83,7 +83,7 @@
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/work.html"
+                      onclick="work()"
                       style="
                         color: #242929;
                         font-family: Arial, Helvetica, sans-serif;
@@ -94,7 +94,7 @@
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/blog.html"
+                      onclick="blog()"
                       style="
                         color: #242929;
                         font-family: Arial, Helvetica, sans-serif;
@@ -106,7 +106,7 @@
                   <li>
                     <a
                       class="dropdown-item"
-                      href="/about.html"
+                      onclick="about()"
                       style="
                         color: #242929;
                         font-family: Arial, Helvetica, sans-serif;
@@ -174,3 +174,22 @@
     </div>
   </body>
 </html>
+<!--JavaScript-->
+<script>
+  //redirects to index page
+  function index() {
+    window.location.replace("/index.html");
+  }
+  //redirects to work page
+  function work() {
+    window.location.replace("/work.html");
+  }
+  //redirects to blog page
+  function blog() {
+    window.location.replace("/blog.html");
+  }
+  //redirects to about page
+  function about() {
+    window.location.replace("/about.html");
+  }
+</script>
