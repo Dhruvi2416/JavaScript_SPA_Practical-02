@@ -78,3 +78,249 @@ body {
     padding-bottom: 0px;
   }
 }
+/* 
+work.css */
+body {
+  background-color: #f6f8f7;
+}
+
+.container {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar a {
+  color: black;
+}
+
+#navbarNav {
+  padding-left: 90px;
+}
+
+.firstpart {
+  border-bottom: 3px solid black;
+}
+
+.work h1 {
+  font-size: 91px;
+  letter-spacing: 0px;
+}
+
+.subtitle p {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+  .subtitle p {
+    font-size: 15px;
+  }
+  .work h1 {
+    font-size: 45px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .break {
+    width: 100%;
+  }
+}
+
+.partone {
+  padding-top: 50px;
+}
+
+.image img {
+  padding-top: 45px;
+  height: 350px;
+  width: 650px;
+}
+
+.contenttitle {
+  font-size: 27px;
+  padding-bottom: 30px;
+}
+
+.contentpara {
+  font-size: 21px;
+}
+
+.explain {
+  padding-top: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  .subtitle {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .subtitle p {
+    padding-bottom: 3px;
+  }
+}
+
+/* 
+about.css */
+body {
+  background-color: #f6f8f7;
+}
+
+.container {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar a {
+  color: black;
+}
+
+#navbarNav {
+  padding-left: 90px;
+}
+
+.aboutpart {
+  border-bottom: 3px solid black;
+}
+
+.about h1 {
+  font-size: 91px;
+  letter-spacing: 0px;
+}
+
+.subtitle p {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  width: 60%;
+}
+
+.roundimg img {
+  height: 208px;
+  width: 208px;
+  margin-top: 20px;
+}
+
+.firstcontent p {
+  padding-top: 20px;
+  color: #3e4242;
+  font-size: 18px;
+}
+
+.mail {
+  padding-left: 120px;
+  padding-top: 30px;
+}
+
+.mail p {
+  margin-bottom: 3px;
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 992px) {
+  .subtitle p {
+    padding-bottom: 0px;
+  }
+}
+
+/* 
+blog.css */
+body {
+  background-color: #f6f8f7;
+}
+
+.container {
+  width: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar a {
+  color: black;
+}
+
+#navbarNav {
+  padding-left: 90px;
+}
+
+.firstpart {
+  border-bottom: 3px solid black;
+}
+
+.blog h1 {
+  font-size: 91px;
+  letter-spacing: 0px;
+}
+
+.subtitle p {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 90px;
+  width: 70%;
+}
+
+.secondpart {
+  padding-left: 190px;
+}
+
+.worklife {
+  padding-top: 20px;
+  color: #585e5e;
+}
+
+.headingtitle {
+  font-size: 28px;
+}
+
+.paragraph {
+  padding: 20px 0px 0px 0px;
+  width: 55%;
+}
+
+.time {
+  color: #585e5e;
+  padding: 0px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .subtitle p {
+    font-size: 15px;
+  }
+  .blog h1 {
+    font-size: 45px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .break {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .secondpart {
+    padding-left: 3px;
+  }
+  .subtitle p {
+    padding-bottom: 20px;
+  }
+}
