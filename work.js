@@ -21,12 +21,32 @@ const work = `<div class="firspart">
   <!--further divided into two parts-->
   <div class="row">
     <!-- first part-->
+
+
     <div class="image col-lg-8">
-      <img
-        class="img-fluid"
-        src="https://www.turnwall.com/wp-content/uploads/2021/05/hero-e1627578686659.png"
-      />
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://www.turnwall.com/wp-content/uploads/2021/05/hero-e1627578686659.png" class="d-block w-100" alt="...">
     </div>
+    <div class="carousel-item">
+      <img src="https://www.turnwall.com/wp-content/uploads/2021/04/brewery-hero-714x600.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.turnwall.com/wp-content/uploads/2019/04/bs-hero-750x387.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> </div>
+
+    
     <!--second part-->
     <div class="explain col-lg-4">
       <div class="contenttitle">
@@ -43,12 +63,34 @@ const work = `<div class="firspart">
   </div>
   <hr />
   <div class="row">
-    <div class="image col-lg-8">
-      <img
-        class="img-fluid"
-        src="https://www.turnwall.com/wp-content/uploads/2021/04/brewery-hero-714x600.png"
-      />
-    </div>
+
+
+  <div class="image col-lg-8">
+  <div id="carouselExampleControl" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="https://www.turnwall.com/wp-content/uploads/2021/05/hero-e1627578686659.png" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="https://www.turnwall.com/wp-content/uploads/2021/04/brewery-hero-714x600.png" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="https://www.turnwall.com/wp-content/uploads/2019/04/bs-hero-750x387.png" class="d-block w-100" alt="...">
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div> </div>
+    
+  
+
+    
 
     <div class="explain col-lg-4">
       <div class="contenttitle">
@@ -65,12 +107,30 @@ const work = `<div class="firspart">
   </div>
   <hr />
   <div class="row">
-    <div class="image col-lg-8">
-      <img
-        class="img-fluid"
-        src="https://www.turnwall.com/wp-content/uploads/2019/04/bs-hero-750x387.png"
-      />
-    </div>
+  <div class="image col-lg-8">
+  <div id="carouselExampleControl1" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="https://www.turnwall.com/wp-content/uploads/2021/05/hero-e1627578686659.png" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="https://www.turnwall.com/wp-content/uploads/2021/04/brewery-hero-714x600.png" class="d-block w-100" alt="...">
+  </div>
+  <div class="carousel-item">
+    <img src="https://www.turnwall.com/wp-content/uploads/2019/04/bs-hero-750x387.png" class="d-block w-100" alt="...">
+  </div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControl1" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControl1" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div> </div>
+      
+    
 
     <div class="explain col-lg-4">
       <div class="contenttitle">
