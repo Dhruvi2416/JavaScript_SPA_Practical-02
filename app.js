@@ -1,16 +1,19 @@
-//redirects to index page
-function index() {
-  window.location.replace("/index.html");
-}
-//redirects to work page
-function work() {
-  window.location.replace("/work.html");
-}
-//redirects to blog page
-function blog() {
-  window.location.replace("/blog.html");
-}
-//redirects to about page
-function about() {
-  window.location.replace("/about.html");
-}
+const routes = {
+  "/": hero,
+  "/work": work,
+  "/about": about,
+  "/blog": blog,
+};
+
+const rootDiv = document.getElementById("root");
+rootDiv.innerHTML = routes[window.location.pathname];
+
+const onNavigate = (pathname) => {
+  window.history.pushState({}, pathname, window.location.origin + pathname);
+
+  rootDiv.innerHTML = routes[pathname];
+};
+
+window.onpopstate = () => {
+  rootDiv.innerHTML = routes[window.location.pathname];
+};
