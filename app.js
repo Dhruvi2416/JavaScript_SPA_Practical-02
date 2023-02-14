@@ -1,10 +1,10 @@
 const routes = {
-  "/": hero,
-  "/work": work,
-  "/about": about,
-  "/blog": blog,
+  "/": hero, //home page
+  "/work": work, //page will be redirected to work page
+  "/about": about, //page will be redirected to about page
+  "/blog": blog, //page will be redirected to blog page
 };
-
+// routing
 const rootDiv = document.getElementById("root");
 rootDiv.innerHTML = routes[window.location.pathname];
 
